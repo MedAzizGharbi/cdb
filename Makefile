@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=gnu11
-SRC = main.c input.c meta_command.c statement.c row.c 
+SRC = main.c input.c meta_command.c statement.c row.c table.c 
 OUT = db
 
 all: $(OUT)
