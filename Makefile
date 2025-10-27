@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=gnu11
-SRC = main.c input.c meta_command.c statement.c row.c table.c 
+SRC = main.c input.c meta_command.c statement.c row.c table.c pager.c
 OUT = db
 
 all: $(OUT)
@@ -10,3 +10,4 @@ $(OUT): $(SRC)
 
 clean:
 	rm -rf $(OUT)
+	rm aziz.db
